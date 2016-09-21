@@ -1,0 +1,99 @@
+/*财务信息*/
+.midland_r{
+	width:calc(100% - 120px);
+	min-height:900px;
+	background: #f2f3f4 url(../img/right/head_l_bg2.jpg) no-repeat;
+	float:left;
+}
+.head_btn_wrap{
+	width:100%;
+	height: 49px;
+	border-bottom: #ccc 1px solid;
+	font-size: 16px;
+    background: #fff url(../img/head_l_bg.jpg) no-repeat;
+}
+.head_btn_wrap a{
+	width: 10.3%;
+	line-height: 48px;
+	text-align: center;
+	font-weight: bold;
+	display: inline-block;
+}
+.head_reportBtn1{
+	color: #0272ff;
+	border-bottom: #0272ff 2px solid;
+}
+.head_reportBtn2,.head_reportBtn3{
+	color: #333;
+}
+.midland_r .midland_r_mid{
+	margin-top:30px;
+	width:95.5%;
+	min-height:700px;
+	background:#fff;
+	border:1px solid #ccc;
+	border-radius:4px;
+	margin-left:1.8%;
+}
+.midland_r .midland_r_mid .midland_r_mid_div{
+	width:500px;
+	height:650px;
+	border:1px solid #ccc;
+	margin-top:24px;
+	margin-left:24px;
+	position:relative;
+}
+.information{
+	font-size:14px;
+	color:#333;
+}
+.information input{
+	width:306px;
+	height:34px;
+	border:1px solid #ccc;
+	font-size:14px;
+	color:#333;
+	text-indent:10px;
+}
+.payee{
+	position: absolute;
+	top:50px;
+	left:46px;
+}
+.location{
+	position: absolute;
+	top:136px;
+	left:46px;
+}
+.bank_name{
+	position: absolute;
+	top:222px;
+	left:32px;
+}
+.bank_account{
+	position: absolute;
+	top:308px;
+	left:32px;
+}
+.sure_account{
+	position: absolute;
+	top:396px;
+	left:32px;
+}
+.save{
+	width:200px;
+	height:45px;
+	background:#3ac45a;
+	color:#fff;
+	position:absolute;
+	top:520px;
+	left:160px;
+	text-align:center;
+	line-height:45px;
+	font-size:18px;
+	cursor:pointer;
+}
+
+
+
+
