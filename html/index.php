@@ -4,7 +4,6 @@
 	<meta charset="utf-8" />
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="../css/public.css"/>
-	<link rel="stylesheet" type="text/css" href="../css/index.css"/>
 </head>
 <body>
 <!-- 头部 -->
@@ -17,7 +16,6 @@
 		<li class="header_li18"><img src="../img/top/img4.png"/></li>
 		<li class="header_li4"><img src="../img/top/img3.png"/></li>
 		<li class="header_li5">
-			<?php if(isset($_G['user_name']))echo $_G['user_name'];else echo "";?>
 		</li>
 		<li class="header_li7">
 			<img class="header_li7_img1" src="../img/top/img5.png"/>
@@ -93,29 +91,29 @@
 </header>
 <!-- 左侧 -->
 <div class="midland_l">
-	<ul>
-		<a href="index.php">
+	<ul class="left_menu">
+		<a target="default.php">
 			<li class="midland_l_li1">
 				<img class="img1" src="../img/left/img1.png"/>
 				<img class="img2" src="../img/left/img2.png"/>
 				<img class="img3" src="../img/left/img3.png"/>
 			</li>
 		</a>
-		<a href="generalize_plan.php">
+		<a target="generalize_plan.php">
 			<li class="midland_l_li2">
 				<img class="img1" src="../img/left/img1.png"/>
 				<img class="img4" src="../img/left/img4.png"/>
 				<img class="img5" src="../img/left/img5.png"/>
 			</li>
 		</a>
-		<a href="overall_statement.php">
+		<a target="overall_statement.php">
 			<li class="midland_l_li3">
 				<img class="img1" src="../img/left/img1.png"/>
 				<img class="img6" src="../img/left/img6.png"/>
 				<img class="img7" src="../img/left/img7.png"/>
 			</li>
 		</a>
-		<a href="basic_information.php">
+		<a target="basic_information.php">
 			<li class="midland_l_li4">
 				<img class="img1" src="../img/left/img1.png"/>
 				<img class="img8" src="../img/left/img8.png"/>
@@ -124,7 +122,7 @@
 		</a>
 	</ul>
 </div>
-<input type="hidden" class="left_choose" value="<?php echo $left_choose;?>">
+<input type="hidden" class="left_choose" value="">
 <!--中间-->
 <div class="midland" id="midland">
 	<div class="clear"></div>

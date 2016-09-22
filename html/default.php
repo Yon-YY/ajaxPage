@@ -27,7 +27,7 @@
 					<div class="div1_1_img"><img src="../img/right/img2.png"/></div>
 					<div class="div1_1_txt">
 						<div class="balance_1">昨日支出</div>
-						<span class="balance_2 two"><?php echo $pay_day;?></span>
+						<span class="balance_2 two"></span>
 						<span class="two">(元)</span>
 					</div>
 				</div>
@@ -37,7 +37,7 @@
 					<div class="div1_1_img"><img src="../img/right/img3.png"/></div>
 					<div class="div1_1_txt">
 						<div class="balance_1">已花费</div>
-						<span class="balance_2 thr"><?php echo $pay_all;?></span>
+						<span class="balance_2 thr"></span>
 						<span class="thr">(元)</span>
 					</div>
 				</div>
@@ -47,7 +47,7 @@
 					<div class="div1_1_img"><img src="../img/right/img4.png"/></div>
 					<div class="div1_1_txt">
 						<div class="balance_1">当月支出</div>
-						<span class="balance_2 fou"><?php echo $pay_mon;?></span>
+						<span class="balance_2 fou"></span>
 						<span class="fou">(元)</span>
 					</div>
 				</div>

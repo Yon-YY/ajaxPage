@@ -6,16 +6,15 @@ function UrlDecode(str){
 } 
 // 调用页面
 $(function(){  
-    $.get("../html/default.html",function(data){  
+    $.get("./default.php",function(data){  
         $("#midland").html(data);//初始化加载界面  
     });  
-      
-    $('#indexMenu li').click(function(){//点击li加载界面  
+    $('.left_menu a').click(function(){//点击li加载界面  
         var current = $(this),  
-        target = current.find('a').attr('target'); // 找到链接a中的targer的值  
+        target = current.attr('target'); // 找到链接a中的targer的值  
         $.get(target,function(data){  
-            $("#iframeContent").html(data);   
-         });  
+            $("#midland").html(data);   
+        });  
     });  
 });  
 
